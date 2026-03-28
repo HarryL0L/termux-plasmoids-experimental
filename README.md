@@ -22,7 +22,9 @@ Paste:
 
 ```bash
 #!/data/data/com.termux/files/usr/bin/bash
-termux-wifi-connectioninfo | jq -r '"\(.ssid)|\(.rssi)|\(.ip)|\(.link_speed)"'```
+termux-wifi-connectioninfo | jq -r '"\(.ssid)|\(.rssi)|\(.ip)|\(.link_speed)"'
+```
+
 
 Make it executable:
 
@@ -40,7 +42,8 @@ Paste:
 
 ```bash
 #!/data/data/com.termux/files/usr/bin/bash
-termux-battery-status | jq -r '"\(.percentage)|\(.status)"'```
+termux-battery-status | jq -r '"\(.percentage)|\(.status)"'
+```
 
 Make it executable:
 
