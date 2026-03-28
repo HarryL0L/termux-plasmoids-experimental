@@ -2,15 +2,17 @@ termux-plasmoids-experimental
 
 ---
 
-📦 Requirements
+- Requirements
 
+```bash
 pkg install jq termux-api
+```
 
 Also make sure you have the Termux:API app installed.
 
 ---
 
-⚙️ Setup
+• Setup
 
 1. Wi-Fi Script
 
